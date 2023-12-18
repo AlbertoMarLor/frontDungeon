@@ -1,0 +1,738 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.logo {
+
+    width: 80px;
+}
+
+.dark {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+    background: transparent;
+    transition: background 0.3s ease;
+
+
+}
+
+.darkScrolled {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+    background-color: #222222ed;
+    z-index: 1;
+}
+
+/* HERO START */
+
+
+.hero {
+    background-image: url(./assets/fondoDef.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+    background-image: linear-gradient(90deg, rgb(254, 125, 4) 20%, rgba(223, 219, 204, 1) 55%, rgba(255, 222, 0, 1) 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 50px;
+    font-family: 'Rowdies';
+    background-size: 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 44px;
+}
+
+.hero h3 {
+    color: rgb(203, 203, 203);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.module-border-wrap {
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 5.5%;
+    left: 90%;
+    max-width: 250px;
+    background: linear-gradient(90deg, rgba(240, 119, 6, 1) 50%, rgb(65, 48, 5) 100%);
+    padding: 1px;
+    transition: .5s;
+    z-index: 9999;
+
+}
+
+
+.module {
+    background: #222;
+    padding: 10px 60px;
+    color: rgba(199, 129, 0, 0.667);
+    font-family: 'Rowdies';
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+
+
+}
+
+.module:hover {
+    color: rgb(227, 149, 2);
+
+}
+
+.buttons {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+
+    padding: 10px 70px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #e3a51e;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 1px solid #ea8b06dc;
+    transition: 0.5s ease;
+    user-select: none;
+
+}
+
+#btn:hover {
+    color: #ffffff;
+    background: #ffa600;
+    border: 1px solid #ffd500;
+    text-shadow: 0 0 5px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ffa600,
+        0 0 20px #ff8800,
+        0 0 50px #ff9500,
+        0 0 100px #ff9d00;
+}
+
+/* HERO END */
+
+/* OVERVIEW START */
+
+
+.overview {
+    position: relative;
+    background-image: url(./assets/fondo1_2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+
+.carousel {
+    border-radius: 5px;
+    width: 650px;
+    height: 600px;
+}
+
+.carouselDiv {
+
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.overviewText {
+    position: absolute;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 27.5%;
+    background-color: #2222223e;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+.overviewText h2 {
+
+    color: #ffa600;
+    font-family: 'Rowdies';
+    font-size: 44px;
+}
+
+.overviewText p {
+
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* OVERVIEW END */
+
+/* Modular START */
+
+.modular {
+    background-image: url(./assets/fondo3.2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+
+}
+
+
+
+.modularImage {
+    width: 650px;
+    height: 600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+
+}
+
+.modularText {
+    position: absolute;
+    width: 700px;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 70%;
+    background-color: #2222228d;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.modular h2 {
+    color: #ffa600;
+    font-family: 'Rowdies';
+    font-size: 44px;
+}
+
+.modular p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+
+/* Modular end */
+
+/* Community start */
+
+.community {
+    background-image: url(./assets/light-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    padding-top: 20px;
+}
+
+
+
+.images {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.images img {
+    margin-top: 25px;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+}
+
+.communityText {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.communityText h2 {
+    color: #ffa600;
+    font-family: 'Rowdies';
+    font-size: 44px;
+
+}
+
+.communityText p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* Community end */
+
+/* Discord start */
+
+.discord {
+    background-image: url(./assets/light-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    padding-top: 20px;
+}
+
+
+.maps-slider {
+    width: 50%;
+    margin: 5% auto;
+}
+
+.item img {
+
+    width: 90%;
+    height: 300px;
+}
+
+.discord h2 {
+    color: #ffa600;
+    font-family: 'Rowdies';
+    font-size: 44px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+/* Discord end */
+
+/* Suscription start */
+
+.suscription {
+    background-image: url(./assets/_6747ee65-d601-4153-8154-96cef4a64583.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.suscription-cards {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.module-border-wrap-sus {
+    max-width: 250px;
+    background: linear-gradient(90deg, rgba(240, 119, 6, 1) 50%, rgb(65, 48, 5) 100%);
+    padding: 1px;
+    transition: .5s;
+    z-index: 9999;
+
+}
+
+
+.module-sus {
+    background: #222;
+    padding: 10px 60px;
+    color: rgba(199, 129, 0, 0.667);
+    font-family: 'Rowdies';
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.suscription h3 {
+    color: #ffa600;
+    font-family: 'Rowdies';
+    font-size: 36px;
+}
+
+.suscription p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* Suscription end */
+
+
+
+/* Foot start */
+
+.foot {
+    background-image: url(./assets/light-background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 7.5vh;
+
+}
+
+.foot-text {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255, 255, 255, 0.652);
+    padding-top: 25px;
+}
+
+/* Foot end */
+@media (max-width: 1024px) {
+
+    .buttons {
+        top: 80%;
+    }
+
+    .carousel {
+        width: 350px;
+        height: 450px;
+    }
+
+    .overviewText {
+        width: 400px;
+        top: 50%;
+        left: 30%;
+    }
+
+    .overviewText h2 {
+        font-size: 36px;
+
+    }
+
+    .overviewText p {
+        font-size: 26px;
+
+    }
+
+    .carouselDiv {
+        left: 75%;
+    }
+
+    .modularImage {
+        width: 400px;
+        height: 450px;
+        left: 25%;
+    }
+
+    .modularText {
+        width: 500px;
+
+    }
+
+    .foot {
+        height: 10vh;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    .module-border-wrap {
+        display: none;
+    }
+
+    .buttons {
+        top: 80%;
+    }
+
+    .overviewText h2 {
+        font-size: 32px;
+
+    }
+
+    .overviewText p {
+        font-size: 22px;
+
+    }
+
+    .overviewText {
+        width: 300px;
+        left: 25%;
+
+    }
+
+    .carouselDiv {
+
+        left: 70%;
+    }
+
+    .modularImage {
+        left: 29%;
+    }
+
+    .modularText {
+        width: 300px;
+        left: 77%;
+    }
+
+    .modularText h2 {
+        font-size: 32px;
+
+    }
+
+    .modularText p {
+        font-size: 22px;
+
+    }
+
+    .suscription h3 {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .darkScrolled {
+        display: none;
+    }
+
+    .module-border-wrap {
+        display: none;
+
+    }
+
+    .hero-text {
+        top: 50%;
+    }
+
+    .hero-text h3 {
+        display: none;
+
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 20px;
+        top: 82.5%;
+    }
+
+    .overview {
+        height: 120vh;
+    }
+
+
+    .carousel {
+        width: 300px;
+        height: 350px;
+    }
+
+    .overviewText h2 {
+        font-size: 26px;
+
+    }
+
+    .overviewText p {
+        font-size: 16px;
+
+    }
+
+    .overviewText {
+        width: 300px;
+        top: 30%;
+        left: 50%;
+    }
+
+    .carouselDiv {
+        top: 70%;
+        left: 50%;
+    }
+
+    .modular {
+        height: 120vh;
+    }
+
+    .modularText {
+        width: 300px;
+        top: 30%;
+        left: 50%;
+    }
+
+    .modularText h2 {
+        font-size: 26px;
+
+    }
+
+    .modularText p {
+        font-size: 16px;
+
+    }
+
+    .modularImage {
+        width: 325px;
+        height: 450px;
+        top: 70%;
+        left: 50%;
+    }
+
+    .community {
+        height: 90vh;
+    }
+
+    .communityText h2 {
+        font-size: 26px;
+    }
+
+    .communityText p {
+        font-size: 16px;
+    }
+
+    .images {
+
+        flex-wrap: wrap;
+    }
+
+    .images img {
+
+        width: 40%;
+        height: 40%;
+    }
+
+    .discord {
+        display: none;
+    }
+
+    .suscription-cards {
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .foot {
+        height: 10vh;
+    }
+
+    .foot-text {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+
+
+
+    .darkScrolled {
+        display: none;
+    }
+
+    .hero-text {
+        top: 45%;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-text h3 {
+        display: none;
+
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 20px;
+        top: 65%;
+    }
+
+    .overview {
+        height: 120vh;
+    }
+
+    .carousel {
+        width: 250px;
+        height: 400px;
+
+    }
+
+    .carouselDiv {
+        top: 75%;
+        left: 50%;
+    }
+
+    .overviewText {
+        width: 200px;
+        top: 30%;
+        left: 50%;
+    }
+
+    .overviewText h2 {
+        font-size: 26px;
+
+    }
+
+    .overviewText p {
+        font-size: 16px;
+
+    }
+
+    .modularText {
+        top: 25%;
+    }
+
+    .modularImage {
+        width: 300px;
+    }
+
+    .community {
+        height: 80vh;
+    }
+
+    .foot {
+        height: 30vh;
+    }
+
+    .foot-text {
+        flex-direction: column;
+    }
+}
